@@ -1,0 +1,42 @@
+{
+    "name": "bluesky/num-to-word",
+    "description": "This package convert number into word",
+    "keywords": [
+        "bluesky",
+        "num-to-word"
+    ],
+    "homepage": "https://github.com/bluesky/num-to-word",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Nihar Ranjan Das",
+            "email": "niharranjandasmu@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bluesky\\NumToWord\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Bluesky\\NumToWord\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
