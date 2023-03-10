@@ -40,7 +40,7 @@ class NumToWord
             "Fifteen",
             "Sixteen",
             "Seventeen",
-            "Eightteen",
+            "Eighteen",
             "Nineteen"
         ];
 
@@ -49,11 +49,11 @@ class NumToWord
             "",
             "Twenty",
             "Thirty",
-            "Fourty",
+            "Forty",
             "Fifty",
             "Sixty",
             "Seventy",
-            "Eigthy",
+            "Eighty",
             "Ninety"
         ];
     }
